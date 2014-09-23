@@ -2,7 +2,7 @@
 
 The purpose of this lab is to teach some more advanced shell commands. After you finish this lab, you will be able to search for files and text, and be able to further learn any command desired.
 
-Before starting the lab, please navigate to [this website](https://github.com/PurdueCS190/syllabus/blob/master/lecture02-more-terminal.md) and review all of the shell commands from Lecture 2.
+Before starting the lab, **OPEN THE [REFERENCE SHEET](https://github.com/PurdueCS190/syllabus/blob/master/lecture02-more-terminal.md)**
 
 ## Setup ##
 
