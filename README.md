@@ -156,7 +156,7 @@ First you need to get the DrJava source code. Run:
     java -jar ~/cs190lab3/drjava/drjava.jar
     ```
 
-7. Click the `'X'` or click `File -> Quit` to see the new version of the dialog box.
+7. Type anything into the main text area, and then quit DrJava to see your new message!
 
 
 ## Grading ##
