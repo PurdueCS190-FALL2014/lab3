@@ -46,7 +46,7 @@ This section is just like the last lab. You are given tasks that each have:
 
     Working Directory:  your home directory
 
-    File URL:           https://raw.githubusercontent.com/PurdueCS190/lab2/master/answers.txt
+    File URL:           https://raw.githubusercontent.com/PurdueCS190/lab3/master/answers.txt
 
     Desired Action:     download the answers.txt file from the URL above using the terminal 
                         (may not use browser!)
