@@ -6,7 +6,6 @@ rm -rf ~/cs190lab3
 wget https://raw.githubusercontent.com/PurdueCS190/lab3/master/cs190lab3.tgz
 tar -xf ~/cs190lab3.tgz
 rm -rf ~/cs190lab3.tgz
-export JAVA8_HOME=/opt/oracle-jdk-bin-1.8.0.20/
 
 # say its done
 echo -e '\ndirectory ~/cs190lab3 reset!'

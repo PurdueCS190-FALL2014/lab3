@@ -133,15 +133,19 @@ In the next section, we will be changing a String value within the DrJava source
 
 2. Replace the string `"Untitled file has been modified. Would you like to save it?"` with `"YOU FORGOT TO SAVE YOUR FILE!!!"`
 3. Save the file
-4. Recompile DrJava by running the command
+4. Tell ant where Java 8 is 
+    ```
+    export JAVA8_HOME=/opt/oracle-jdk-bin-1.8.0.20/
+    ```
+5. Recompile DrJava by running the command
     ```
     cd ~/cs190lab3/drjava; ant jar
     ```
-5. Run the new DrJava by running the command
+6. Run the new DrJava by running the command
     ```
     java -jar ~/cs190lab3/drjava/drjava.jar
     ```
-6. Click the `'X'` or click `File -> Quit` to see the new version of the dialog box. 
+7. Click the `'X'` or click `File -> Quit` to see the new version of the dialog box. 
 
 
 ## Grading ##
