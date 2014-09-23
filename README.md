@@ -53,9 +53,9 @@ This section is just like the last lab. You are given tasks that each have:
 
     Record your answer under the Task 1 block.
 
-Your answers.txt file is now located in your home directory at `~/answers.txt`. You can open this file up in gedit by typing the command below. 
+Your answers.txt file is now located in your home directory at `~/answers.txt`. You can open this file up in pluma by typing the command below. 
 
-    gedit ~/answers.txt &
+    pluma ~/answers.txt &
 
 #### Task 2a - inconvenient text input/output ####
 
@@ -67,10 +67,6 @@ Your answers.txt file is now located in your home directory at `~/answers.txt`. 
                         and complete each prompt.
 
     You do not need to copy anything over to answers.txt for Task 2a.
-
-> If you want to compile and run Java in the terminal on your own, you must run 
-> `javac <file_name>.java` first to compile. In this lab, the compilation step is
-> done or you.
 
 #### Task 2b - convenient text input/output####
 
@@ -92,7 +88,7 @@ Your answers.txt file is now located in your home directory at `~/answers.txt`. 
     Working Directory:  ~/cs190lab3/
 
     Desired Action:     search through the text file "The Young Engineers.txt" for occurrences
-                        of the word "horseback". Have the output line numbers of each occurrence.
+                        of the word "horseman". Have the output line numbers of each occurrence.
 
                         # format of output
                         XXXX:this is the word horseback appearing in text
@@ -113,7 +109,7 @@ In the next section, we will be changing a String value within the DrJava source
 
     Working Directory:  ~/cs190lab3/drjava
 
-    Phrase:             "Are you sure you want to quit DrJava?"
+    Phrase:             "Untitled file has been modified. Would you like to save it?"
 
     Desired Action:     print out the file(s) and line number where the phrase above appears
                         within the working directory. You need to search through the drjava 
@@ -127,15 +123,15 @@ In the next section, we will be changing a String value within the DrJava source
 
     Working Directory:  ~/cs190lab3/drjava
 
-1. Open the FILE FOUND IN THE PREVIOUS TASK and navigate to the line number in gedit by running the command below.
+1. Open the FILE FOUND IN THE PREVIOUS TASK and navigate to the line number in pluma by running the command below.
     ```
-    gedit <file_path> +<line_number>
+    pluma <file_path> +<line_number>
 
-    # example: open DrJava.java in gedit and scroll to line 349. 
-    gedit drjava/src/edu/rice/cs/drjava/DrJava.java +349 &
+    # example: open DrJava.java in pluma and scroll to line 349. 
+    pluma drjava/src/edu/rice/cs/drjava/DrJava.java +349 &
     ```
 
-2. Replace the string `"Are you sure you want to quit DrJava?"` with a String of your choice.
+2. Replace the string `"Untitled file has been modified. Would you like to save it?"` with `"YOU FORGOT TO SAVE YOUR FILE!!!"`
 3. Save the file
 4. Recompile DrJava by running the command
     ```
