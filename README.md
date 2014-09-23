@@ -1,8 +1,8 @@
 # CS190 Lab 3 - The Doctor Exposed #
 
-The purpose of this lab is to teach some more advanced shell commands. After you finish this lab, you will be able to search for files and text, and be able to further learn any command desired. 
+The purpose of this lab is to teach some more advanced shell commands. After you finish this lab, you will be able to search for files and text, and be able to further learn any command desired.
 
-Before starting the lab, please navigate to [this website](https://github.com/PurdueCS190/syllabus/blob/master/lecture02-more-terminal.md) and review all of the shell commands from Lecture 2. 
+Before starting the lab, please navigate to [this website](https://github.com/PurdueCS190/syllabus/blob/master/lecture02-more-terminal.md) and review all of the shell commands from Lecture 2.
 
 ## Setup ##
 
@@ -29,7 +29,7 @@ Depending on your working environment, perform the appropriate action:
 ### The Magic Command ###
 	cd; curl -sL https://raw.githubusercontent.com/PurdueCS190/lab3/master/lab3init | /bin/bash
 
-Copy the command above and run it within the terminal. It will create a folder named `cs190lab3` located within your home directory. 
+Copy the command above and run it within the terminal. It will create a folder named `cs190lab3` located within your home directory.
 
 
 ## Part 1 - Just Like Last Time ##
@@ -48,12 +48,12 @@ This section is just like the last lab. You are given tasks that each have:
 
     File URL:           https://raw.githubusercontent.com/PurdueCS190/lab3/master/answers.txt
 
-    Desired Action:     download the answers.txt file from the URL above using the terminal 
+    Desired Action:     download the answers.txt file from the URL above using the terminal
                         (may not use browser!)
 
     Record your answer under the Task 1 block.
 
-Your answers.txt file is now located in your home directory at `~/answers.txt`. You can open this file up in pluma by typing the command below. 
+Your answers.txt file is now located in your home directory at `~/answers.txt`. You can open this file up in pluma by typing the command below.
 
     pluma ~/answers.txt &
 
@@ -63,7 +63,7 @@ Your answers.txt file is now located in your home directory at `~/answers.txt`. 
 
     Command:            bash madlib
 
-    Desired Action:     run the Bash program named 'madlib' by using the command above 
+    Desired Action:     run the Bash program named 'madlib' by using the command above
                         and complete each prompt.
 
     You do not need to copy anything over to answers.txt for Task 2a.
@@ -74,13 +74,13 @@ Your answers.txt file is now located in your home directory at `~/answers.txt`. 
 
     Command:            bash madlib
 
-    Desired Action:     run the Bash program named 'madlib' by using the command format above, 
-                        but you must feed the program the contents of 'input.txt' AND 
+    Desired Action:     run the Bash program named 'madlib' by using the command format above,
+                        but you must feed the program the contents of 'input.txt' AND
                         save the output of the program to a file named 'poem.txt'.
 
     Record your answer under the Task 2b block.
 
-> Once you've saved the output of MadLib in poem.txt, you can confirm there is text by 
+> Once you've saved the output of MadLib in poem.txt, you can confirm there is text by
 > running `cat poem.txt`.
 
 #### Task 3 - Searching the text a file ####
@@ -100,16 +100,14 @@ Your answers.txt file is now located in your home directory at `~/answers.txt`. 
 
 ## Part 2 - Editing the DrJava Source Code ##
 
-Students in CS180 primarily use the application DrJava to write and edit their Java files. It is a wonderfully simple editor and is also free and open source. This means that we can download the source code of the project, edit it to fit our needs, then rebuild the application. 
+Students in CS180 primarily use the application DrJava to write and edit their Java files. It is a wonderfully simple editor and is also free and open source. This means that we can download the source code of the project, edit it to fit our needs, then rebuild the application.
 
 In the next section, we will be changing a String value within the DrJava source code that appears when quitting the application. We will then rebuild the source and test our changes to confirm it worked.
 
 
 First you need to get the DrJava source code. Run:
 
-    ```
     svn co https://drjava.svn.sourceforge.net/svnroot/drjava/trunk/drjava
-    ```
 
 
 #### Task 4 - Searching the text of many files ####
@@ -119,7 +117,7 @@ First you need to get the DrJava source code. Run:
     Phrase:             "Untitled file has been modified. Would you like to save it?"
 
     Desired Action:     print out the file(s) and line number where the phrase above appears
-                        within the working directory. You need to search through the drjava 
+                        within the working directory. You need to search through the drjava
                         folder and ALL of its subdirectories (recursive search).
 
     Record your answer under the Task 4 block.
@@ -134,7 +132,7 @@ First you need to get the DrJava source code. Run:
     ```
     pluma <file_path> +<line_number>
 
-    # example: open DrJava.java in pluma and scroll to line 349. 
+    # example: open DrJava.java in pluma and scroll to line 349.
     pluma drjava/src/edu/rice/cs/drjava/DrJava.java +349 &
     ```
 
@@ -158,7 +156,7 @@ First you need to get the DrJava source code. Run:
     java -jar ~/cs190lab3/drjava/drjava.jar
     ```
 
-7. Click the `'X'` or click `File -> Quit` to see the new version of the dialog box. 
+7. Click the `'X'` or click `File -> Quit` to see the new version of the dialog box.
 
 
 ## Grading ##
